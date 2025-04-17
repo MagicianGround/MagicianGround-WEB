@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: 'Courier New', monospace;
+  color: white;
+}
+.section {
+  position: relative;
+  padding: 60px 30px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+ 
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 0;
+}
+.content {
+  position: relative;
+  z-index: 1;
+  max-width: 700px;
+}
+.link {
+  margin-top: 20px;
+  display: inline-block;
+  color: white;
+  border-bottom: 1px solid white;
+  text-decoration: none;
+}
+h2 {
+  margin-bottom: 20px;
+}
+p {
+  line-height: 1.6;
+}
+
+
+section{
+
+    padding-top: 300px;
+    padding-left: 1%;
+}
