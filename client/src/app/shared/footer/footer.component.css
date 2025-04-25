@@ -1,7 +1,9 @@
-
-.LogoClaro {
+.icon {
   width: 70px;
   height: 70px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-bottom: 20px;
 }
 
 .items {
@@ -26,9 +28,9 @@
 }
 
 .footer {
-  text-align: center;
+  text-align: right;
   margin-right: 40px;
-  font-size: 1.0em;
+  font-size: 1.2em;
   color: #fff;
   padding-bottom: 20px;
 }
@@ -41,7 +43,6 @@ a {
 a:hover {
   text-decoration: underline;
 }
-
 
 @media (max-width: 600px) {
   .items {
