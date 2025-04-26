@@ -11,22 +11,26 @@
     padding-top: 200px;
 
     font-family: 'Courier New', Courier, monospace;
-    
+
   }
-  
+
+h2{
+  font-size: 3rem;
+}
+
   .left, .right {
     width: 45%;
   }
-  
+
   .title {
     font-size: 2rem;
     margin-bottom: 2rem;
   }
-  
+
   .link-group {
     margin-bottom: 1rem;
   }
-  
+
   .link {
     text-decoration: none;
     color: white;
@@ -36,20 +40,20 @@
     align-items: center;
     gap: 10px;
   }
-  
+
   .link:hover .arrow {
     transform: translateX(5px);
     transition: transform 0.2s;
   }
-  
+
   .arrow {
     font-size: 1.2rem;
   }
-  
+
   .description {
     font-size: 1.2rem;
     line-height: 1.6;
   }
-  
 
-  
+
+
