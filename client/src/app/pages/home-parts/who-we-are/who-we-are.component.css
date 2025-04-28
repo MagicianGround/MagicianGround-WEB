@@ -1,59 +1,86 @@
 
 
 .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #000;
-    color: white;
-    padding: 200px;
-    padding-bottom: 200px;
-    padding-top: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+  color: white;
+  padding: 15%;
+  padding-bottom: 200px;
+  padding-top: 200px;
 
-    font-family: 'Courier New', Courier, monospace;
+  font-family: 'Courier New', Courier, monospace;
 
-  }
+}
 
 h2{
   font-size: 3rem;
 }
 
-  .left, .right {
-    width: 45%;
-  }
+.left, .right {
+  width: 45%;
+}
 
-  .title {
-    font-size: 2rem;
-    margin-bottom: 2rem;
-  }
+.title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
 
-  .link-group {
-    margin-bottom: 1rem;
-  }
+.link-group {
+  margin-bottom: 1rem;
+}
 
-  .link {
-    text-decoration: none;
-    color: white;
-    font-size: 1rem;
-    border-bottom: 1px solid white;
-    display: inline-flex;
+.link {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  border-bottom: 1px solid white;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.link:hover .arrow {
+  transform: translateX(5px);
+  transition: transform 0.2s;
+}
+
+.arrow {
+  font-size: 1.2rem;
+}
+
+.description {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+@media (max-width : 800px){
+
+  .container {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    gap: 10px;
+    background-color: #000;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+
   }
 
-  .link:hover .arrow {
-    transform: translateX(5px);
-    transition: transform 0.2s;
-  }
+}
 
-  .arrow {
-    font-size: 1.2rem;
-  }
 
-  .description {
-    font-size: 1.2rem;
-    line-height: 1.6;
-  }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
