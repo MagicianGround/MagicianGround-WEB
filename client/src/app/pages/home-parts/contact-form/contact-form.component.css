@@ -1,13 +1,13 @@
-.contact-form-section{
+.contact-form-section {
   height: 80vh;
   width: 65%;
   background-color: black;
   padding-top: 10%;
   padding-left: 16%;
   padding-right: 6%;
-  padding-bottom: 2%;
+  padding-bottom: 20vh;
 }
-.div-form-conteiner{
+.div-form-conteiner {
   width: 100%;
 }
 
@@ -15,24 +15,24 @@
   margin-bottom: 5%;
 }
 
-.form{
+.form {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   column-gap: 5px;
-  gap : 5px
+  gap: 5px;
 }
 
-.form input{
+.form input {
   height: 45px;
   width: 97%;
   padding: 1%;
   background: none;
-  border:none;
+  border: none;
   border-bottom: 1px solid rgb(255, 255, 255, 30%);
   color: white;
 }
 
-.form input:focus{
+.form input:focus {
   outline: none;
   border-bottom: 1px solid rgb(255, 255, 255, 100%);
 }
@@ -43,8 +43,7 @@
   user-select: none;
 }
 
-
-.form textarea{
+.form textarea {
   grid-column-start: 1;
   grid-column-end: -1;
   padding: 1%;
@@ -57,7 +56,6 @@
   border-bottom: 1px solid rgb(255, 255, 255, 30%);
 }
 
-
 .form textarea:placeholder {
   color: rgb(255, 255, 255, 30%);
 }
@@ -68,8 +66,7 @@
   border-left: 1px solid rgb(255, 255, 255, 100%);
 }
 
-
-.form button{
+.form button {
   margin-top: 5%;
   background: none;
   border: 1px solid rgb(255, 255, 255, 50%);
@@ -79,38 +76,20 @@
   user-select: none;
 }
 
-.form button:hover{
+.form button:hover {
   background-color: rgb(255 255, 255, 10%);
   color: rgb(255, 255, 255, 50%);
 }
 
-@media (max-width : 800px) {
-  .contact-form-section{
+@media (max-width: 800px) {
+  .contact-form-section {
     padding-bottom: 50%;
   }
 
-  .form{
+  .form {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     column-gap: 5px;
-    gap : 5px
+    gap: 5px;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
