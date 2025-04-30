@@ -1,14 +1,17 @@
 
 .section1 {
-  margin: 0;
-  font-family: 'Courier New', monospace;
   color: white;
   background-image: url('/13.png');
   background-repeat: no-repeat;
+  padding: 15%;
+  padding-bottom: 150px;
+  padding-top: 150px;
+
+
 }
+
 .section {
   position: relative;
-  padding: 60px 30px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -24,11 +27,6 @@
 .content {
   position: relative;
   z-index: 1;
-  max-width: 700px;
-  padding-top: 200px;
-  padding-bottom: 200px;
-  width: 500px;
-  padding-left: 200px;
 }
 .link {
   padding-top: 50px;
@@ -37,13 +35,9 @@
   border-bottom: 1px solid white;
   text-decoration: none;
 }
-h2 {
-  margin-bottom: 20px;
-}
-p,a {
-  line-height: 1.6;
-  font-size: 1.25rem;
-}
+
+
+
 
 
 
