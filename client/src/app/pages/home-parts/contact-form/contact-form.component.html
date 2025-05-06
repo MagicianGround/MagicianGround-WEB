@@ -2,14 +2,19 @@
   <div class="div-form-conteiner">
     <h2>Contactanos</h2>
     <form action="https://formsubmit.co/mgpeirone25@gmail.com" method="POST" class="form">
-      <input type="text" name="nombre" placeholder="Nombre" required/>
+      <!-- Campos visibles -->
+      <input type="text" name="nombre" placeholder="Nombre" required />
       <input type="text" name="apellido" placeholder="Apellido" required />
-      <input type="email" name="email" placeholder="Email" required/>
+      <input type="email" name="email" placeholder="Email" required />
       <br>
       <textarea name="mensaje" cols="60" rows="10" wrap="hard" placeholder="Dejanos tu mensaje" required></textarea>
-      <button type="submit">
-        Enviar
-      </button>
+      <button type="submit">Enviar</button>
+
+      <!-- Configuraciones ocultas -->
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_next" value="https://tusitio.com/gracias.html">
+      <input type="hidden" name="_template" value="table">
     </form>
   </div>
 </section>
+
