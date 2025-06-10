@@ -1,0 +1,51 @@
+
+header{
+    width: 100%;
+    padding-top: 3%;
+    padding-left: 2%;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    z-index: 100;
+}
+
+.header-mg-loge{
+    position: fixed;
+    top: 1%;
+}
+
+
+.Header-menu-button{
+    position: fixed;
+    top: 2%;
+    right: 2%;
+    background-color: #648D3A;
+    height: 60px;
+    width: 60px;
+}
+
+.Header-menu-button img{
+    height: 60px;
+    width: 60px;
+}
+
+.Header-menu-button:hover{
+    background-color: #000;
+}
+
+@media (max-width:800px){
+    .Header-menu-button{
+        height: 50px;
+        width: 50px;
+    }
+
+    .Header-menu-button img{
+        height: 50px;
+        width: 50px;
+    }
+    
+    header{
+        padding-top: 5%;
+    }
+    
+}
