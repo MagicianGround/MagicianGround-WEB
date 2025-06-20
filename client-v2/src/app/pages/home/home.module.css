@@ -65,4 +65,78 @@
 }
 
 
+.who-we-are{
+    padding: 5%;
+    display: grid; 
+    background-color: #E5E5E5;
+    width: 90%;
+    grid-template-columns: repeat(2, 1fr); 
+    column-gap: 10%;
+}
+
+.who-we-are h1{
+    font-size: 3.5rem;
+}
+
+.links-who-we-are{
+    margin-top: 5%;
+    text-decoration: underline;
+}
+
+.who-we-are a{
+    font-size: 2rem;
+    margin-bottom: 5%;
+    color: #000;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.flecha-link {
+  font-size: 1.2em; /* O el tamaño que quieras */
+  transition: transform 0.2s ease;
+}
+
+.who-we-are a:hover .flecha-link{
+    transform: translateX(10px);
+}
+
+
+.who-we-are p {
+    font-size: 2.5rem;
+}
+
+@media (max-width : 800px){
+    .who-we-are{
+        display: block;  
+        padding: 5%;
+    }
+
+    .who-we-are h1 {
+        font-size: 2.5rem;
+    }
+
+    .who-we-are a {
+        font-size: 1.5rem;
+    }
+
+    .who-we-are p {
+        margin-bottom: 5%;
+    }
+}
+
+
+.our-objetive{
+   background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('/public/un_agricultor_en_su_trabajo.png');
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   width: 100%;
+   height: 500px;
+
+   opacity: 0.4; 
+}
+
+
 
