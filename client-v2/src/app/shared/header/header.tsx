@@ -4,6 +4,10 @@ import MGLogo from '../../../assets/Logo.png'
 import MenuHeader from '../../../assets/menu.png'
 
 export default function Header() {
+    
+
+
+
     return ( 
         <>
         <header> 
